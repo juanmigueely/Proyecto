@@ -37,7 +37,7 @@ body, .divdos{
     width: 100%;
 }
 .moto img{
-    width: 10%;
+    width: 15%;
 }
 .moto{
     margin-left: 3em;
@@ -54,7 +54,7 @@ body, .divdos{
     display: inline-block;
 }
 .dos h2{
-    padding: 0.5em 2em;
+    padding: 1em 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: right;
 }
@@ -174,7 +174,7 @@ nav li a:hover{
 }
 .decimo{
     margin: 1.3em;
-    width: 30%;
+    width: 28%;
     margin-top: 1em;
     box-shadow: 10px 10px rgba(0, 0, 0, 0.336);
     display: inline-block;
@@ -191,10 +191,13 @@ nav li a:hover{
 }
 .decimo2 i{
     font-size: 2em;
-    padding: 1em;
+    padding: 0.7em;
 }
 .divdos{
     margin: 0 2em;
+}
+.decimo4 img{
+    width: 110%;
 }
 .octavo, .noveno{
     display: inline-block;
@@ -204,6 +207,7 @@ nav li a:hover{
     margin-top: 2em;
 }
 .octavo p{
+    text-align: left;
     margin-top: 0.3em;
 }
 .octavo{
@@ -268,14 +272,14 @@ footer{
 }
 .div1 p{
     padding-left: 1em;
-    margin-top: 1.4em;
+    margin-top: 0.4em;
 }
 .d1{    
-    margin-top: 6em;
+    margin-top: 4em;
 }
 .d1 a{
     font-size: 1.5em;
-    padding: 1em 2em;
+    padding: 1em 1.5em;
     margin: 0 3em;
     border-radius:5px ;
 }
@@ -449,8 +453,138 @@ form input{
     background-color: transparent;
 }
 
-@media screen (min-width:400px ) and (max-width:600px){
-    header{
-        
+@media ( max-width:400px) {
+    .moto{
+        margin-left: 0;
+        left: 100%;
     }
+    .dos h2{
+        margin-left: 1em;
+        font-size: 1em;
+        padding-top: 0;
+    }
+    nav li{
+        font-size: 0.6em;
+        padding-top: 1em ;
+        text-align: left;
+        width: 100%;
+    }
+    #principal h2{
+        display: none;
+    }
+    .segundo button{
+        margin-left: 1em;
+        padding: 0.2em;
+        height: 30%;
+        width: 40%;
+    }
+    .segundo button a{
+        font-size: 0.5em;
+        color: white;
+    } 
+    .segundo button a:hover{
+        font-size: 0.5em;
+    }
+    .tercero{
+        margin-left: -1.5em;
+        width: 130%;
+    }
+    .quinto{
+        width: 100%;
+    }
+    #principal{
+        height: 450px;
+    }
+    #uno h3{
+        font-size: 1.5em;
+    }
+    .decimo{
+        margin-left: 0%;
+        width: 100%;
+    }
+    #decimoo{
+        margin-left: 0%;
+    }
+    .octavo{
+        width: 100%;
+        margin-left: 1.5em;
+    }
+    .octavo h3{
+        font-size: 1.5em;
+    }
+    .octavo p{
+        font-size: 0.7em;
+        padding: 0%;
+    }
+    .noveno{
+        width: 100%;
+    }
+    .noveno input{
+        width: 60%;
+        margin: 0.5em;
+    }
+    footer .div1{
+        width: 100%;
+        text-align: left
+    }
+    footer .fa-solid{
+        font-size: 2em ;
+    }
+    footer .uno h1{
+        font-size: 1.3em;   
+    }
+    footer .uno b, p{
+        font-size: 0.5em;
+    }
+    .d1 a{
+        font-size: 0.8em;
+        margin: 1em;
+        padding: 0.4em;
+    }
+    .d4{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .d4 h4{
+        font-size: 1em;
+    }
+    .d4 select{
+        font-size: 0.5em;
+    }
+    .r1{
+        margin-left: 13.8em;
+    }
+    #sectionthre1, #sectionone1, #sectiontwo1, #sectionfour1, #sectionfour, #sectionfive, #sectionsix, #sectionseven, #d1, #sectionone, #sectiontwo, #sectionthre, #sectioneight, #sectionnine, #sectionten, #sectioneleven, #sectionone2, #sectiontwo2, #sectionthre2, #sectionfour2 {
+        background: none;
+    }
+    #sectionthre1 img, #sectionone1 img, #sectionfive img, #sectionsix img, #sectionseven img, #sectionfour, #sectionnine, #sectionten, #sectioneleven, #sectiontwo {
+        margin-left: -10em;
+        width: 200%;
+    }
+    .d3{
+        width: 100%;
+        margin-left: -4.5em;
+    }
+    .d3 h3{
+        font-size: 3em;
+    }
+    .d3 ol{
+        font-size: 2em;
+    }
+    .d3 p{
+        font-size: 1em;
+    }
+    #sectiontwo1 img, #sectionfour1 img, #d1, #sectionone2{
+        width: 190%;
+        margin-left: -9em;
+    }
+    #sectioneight{
+        width: 180%;
+        margin-left: -7em;
+    }
+    #sectionone, #sectionthre, #sectionthre2, #sectiontwo2, #sectionfour2{
+        width: 150%;
+        margin-left: -3em;
+    }
+
 }
