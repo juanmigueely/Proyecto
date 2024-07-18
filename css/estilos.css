@@ -967,3 +967,10 @@ form input{
     }
 
 }
+@media ( min-width:1001px) and (max-width: 1270px){
+    .d1 a{
+        font-size: 1em;
+        margin: 1em;
+        padding: 0.8em;
+    }
+}
