@@ -453,7 +453,7 @@ form input{
     background-color: transparent;
 }
 
-@media ( max-width:400px) {
+@media ( max-width:400px){
     .moto{
         margin-left: 0;
         left: 100%;
@@ -585,6 +585,385 @@ form input{
     #sectionone, #sectionthre, #sectionthre2, #sectiontwo2, #sectionfour2{
         width: 150%;
         margin-left: -3em;
+    }
+}
+@media ( min-width:402px) and (max-width: 530px){
+    .moto{
+        margin-left: 0;
+        left: 100%;
+    }
+    .dos h2{
+        margin-left: 1em;
+        font-size: 1em;
+        padding-top: 0;
+    }
+    nav li{
+        font-size: 0.6em;
+        padding-top: 1em ;
+        text-align: left;
+        width: 100%;
+    }
+    #principal h2{
+        display: none;
+    }
+    .segundo button{
+        margin-left: 1em;
+        padding: 0.2em;
+        height: 30%;
+        width: 40%;
+    }
+    .segundo button a{
+        font-size: 0.5em;
+        color: white;
+    } 
+    .segundo button a:hover{
+        font-size: 0.5em;
+    }
+    .tercero{
+        margin-left: -1.5em;
+        width: 130%;
+    }
+    .quinto{
+        width: 100%;
+    }
+    #principal{
+        height: 450px;
+    }
+    #uno h3{
+        font-size: 1.5em;
+    }
+    .decimo{
+        margin-left: 0%;
+        width: 100%;
+    }
+    #decimoo{
+        margin-left: 0%;
+    }
+    .octavo{
+        width: 100%;
+        margin-left: 1.5em;
+    }
+    .octavo h3{
+        font-size: 1.5em;
+    }
+    .octavo p{
+        font-size: 0.7em;
+        padding: 0%;
+    }
+    .noveno{
+        width: 100%;
+    }
+    .noveno input{
+        width: 60%;
+        margin: 0.5em;
+    }
+    footer .div1{
+        width: 100%;
+        text-align: left
+    }
+    footer .fa-solid{
+        font-size: 2em ;
+    }
+    footer .uno h1{
+        font-size: 1.3em;   
+    }
+    footer .uno b, p{
+        font-size: 0.5em;
+    }
+    .d1 a{
+        font-size: 0.8em;
+        margin: 1em;
+        padding: 0.4em;
+    }
+    .d4{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .d4 h4{
+        font-size: 1em;
+    }
+    .d4 select{
+        font-size: 0.5em;
+    }
+    .r1{
+        margin-left: 13.8em;
+    }
+    #sectionthre1, #sectionone1, #sectiontwo1, #sectionfour1, #sectionfour, #sectionfive, #sectionsix, #sectionseven, #d1, #sectionone, #sectiontwo, #sectionthre, #sectioneight, #sectionnine, #sectionten, #sectioneleven, #sectionone2, #sectiontwo2, #sectionthre2, #sectionfour2 {
+        background: none;
+    }
+    #sectionthre1 img, #sectionone1 img, #sectionfive img, #sectionsix img, #sectionseven img, #sectionfour, #sectionnine, #sectionten, #sectioneleven, #sectiontwo {
+        margin-left: -10em;
+        width: 200%;
+    }
+    .d3{
+        width: 100%;
+        margin-left: -4.5em;
+    }
+    .d3 h3{
+        font-size: 3em;
+    }
+    .d3 ol{
+        font-size: 2em;
+    }
+    .d3 p{
+        font-size: 1em;
+    }
+    #sectiontwo1 img, #sectionfour1 img, #d1, #sectionone2{
+        width: 190%;
+        margin-left: -9em;
+    }
+    #sectioneight{
+        width: 180%;
+        margin-left: -7em;
+    }
+    #sectionone, #sectionthre, #sectionthre2, #sectiontwo2, #sectionfour2{
+        width: 150%;
+        margin-left: -3em;
+    }
+}
+@media ( min-width:531px) and (max-width: 700px){
+    .moto{
+        margin-left: 0;
+        left: 100%;
+    }
+    .dos h2{
+        margin-left: 1em;
+        font-size: 1.3em;
+        padding-top: 0;
+    }
+    nav li{
+        font-size: 0.7em;
+        padding-top: 1em ;
+        text-align: left;
+        width: 17%;
+    }
+    #principal h2{
+        display: none;
+    }
+    .segundo button{
+        margin-left: 2em;
+        padding: 0.3em;
+        height: 40%;
+        width: 50%;
+    }
+    .segundo button a{
+        font-size: 0.6em;
+        color: white;
+    } 
+    .segundo button a:hover{
+        font-size: 0.6em;
+    }
+    .tercero{
+        margin-left: -1.5em;
+        width: 130%;
+    }
+    .quinto{
+        width: 100%;
+    }
+    #principal{
+        height: 510px;
+    }
+    #uno h3{
+        font-size: 1.7em;
+    }
+    .decimo{
+        margin-left: 0%;
+        width: 100%;
+    }
+    #decimoo{
+        margin-left: 0%;
+    }
+    .octavo{
+        width: 100%;
+        margin-left: 1.5em;
+    }
+    .octavo h3{
+        font-size: 1.5em;
+    }
+    .octavo p{
+        font-size: 0.7em;
+        padding: 0%;
+    }
+    .noveno{
+        width: 100%;
+    }
+    .noveno input{
+        width: 60%;
+        margin: 0.5em;
+    }
+    footer .div1{
+        width: 100%;
+        
+    }
+    footer .fa-solid{
+        font-size: 2em ;
+    }
+    footer .uno h1{
+        font-size: 1.5em;   
+    }
+    footer .uno b, p{
+        font-size: 0.8em;
+    }
+    .d1 a{
+        font-size: 0.8em;
+        margin: 1em;
+        padding: 0.4em;
+    }
+    .d4{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .d4 h4{
+        font-size: 1em;
+    }
+    .d4 select{
+        font-size: 0.5em;
+    }
+    .r1{
+        margin-left: 18.8em;
+    }
+    #sectionthre1, #sectionone1, #sectiontwo1, #sectionfour1, #sectionfour, #sectionfive, #sectionsix, #sectionseven, #d1, #sectionone, #sectiontwo, #sectionthre, #sectioneight, #sectionnine, #sectionten, #sectioneleven, #sectionone2, #sectiontwo2, #sectionthre2, #sectionfour2 {
+        background: none;
+    }
+    #sectionthre1 img, #sectionone1 img, #sectionfive img, #sectionsix img, #sectionseven img, #sectionfour, #sectionnine, #sectionten, #sectioneleven, #sectiontwo {
+        margin-left: -14em;
+        width: 200%;
+    }
+    .d3{
+        width: 100%;
+        margin-left: -4.5em;
+    }
+    .d3 h3{
+        font-size: 3em;
+    }
+    .d3 ol{
+        font-size: 2em;
+    }
+    .d3 p{
+        font-size: 1em;
+    }
+    #sectiontwo1 img, #sectionfour1 img, #d1, #sectionone2{
+        width: 190%;
+        margin-left: -13em;
+    }
+    #sectioneight{
+        width: 170%;
+        margin-left: -9em;
+    }
+    #sectionone, #sectionthre, #sectionthre2, #sectiontwo2, #sectionfour2{
+        width: 150%;
+        margin-left: -5em;
+    }
+}
+@media ( min-width:701px) and (max-width: 1000px){
+    .moto{
+        margin-left: 0;
+        left: 100%;
+    }
+    .dos h2{
+        margin-left: 2em;
+        font-size: 1.5em;
+        padding-top: 0;
+    }
+    nav li{
+        font-size: 0.8em;
+        padding-top: 1em 
+    }
+    nav li:hover{
+        font-size: 0.5em;
+    }
+    #principal h2{
+        display: none;
+    }
+    .segundo button{
+        margin-left: 2em;
+        padding: 0.3em;
+        height: 50%;
+        width: 60%;
+    }
+    .segundo button a{
+        font-size: 0.7em;
+        color: white;
+    } 
+    .segundo button a:hover{
+        font-size: 0.6em;
+    }
+    .tercero{
+        margin-left: -1.5em;
+        width: 130%;
+    }
+    .quinto{
+        width: 100%;
+    }
+    #principal{
+        height: 600px;
+    }
+    #uno h3{
+        font-size: 2em;
+    }
+    .decimo{
+        margin-left: 0%;
+        width: 46%;
+    }
+    #decimoo{
+        margin-left: 0%;
+    }
+    .octavo{
+        width: 100%;
+        margin-left: 1.5em;
+    }
+    .octavo h3{
+        font-size: 2em;
+    }
+    .octavo p{
+        font-size: 1em;
+        padding: 0%;
+    }
+    .noveno{
+        width: 100%;
+    }
+    .noveno input{
+        width: 60%;
+        margin: 0.5em;
+    }
+    footer .div1{
+        width: 100%;
+        
+    }
+    footer .fa-solid{
+        font-size: 3em ;
+    }
+    .d1 a{
+        font-size: 1em;
+        margin: 1em;
+        padding: 0.8em;
+    }
+    .d4{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .d4 h4{
+        font-size: 1.3em;
+    }
+    .d4 select{
+        font-size: 0.7em;
+    }
+    .r1{
+        margin-left: 25em;
+    }
+
+    .d3{
+        width: 100%;
+        
+    }
+    .d3 h3{
+        font-size: 3em;
+    }
+    .d3 ol{
+        font-size: 2.5em;
+    }
+    .d3 p{
+        font-size: 1.5em;
     }
 
 }
